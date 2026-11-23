@@ -1,0 +1,34 @@
+** Drc report for OBD_CAN.kicad_pcb **
+** Created on 2026-10-15T23:24:04 **
+** Report includes: Errors **
+
+** Found 0 DRC violations **
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.0000 mm, 55.7000 mm): Track [GND] on F.Cu, length 1.1000 mm
+    @(145.8784 mm, 63.7500 mm): Track [GND] on In2.Cu, length 0.5586 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.6728 mm, 70.0600 mm): Pad 6 [CAN_L] of U7 on B.Cu
+    @(147.3700 mm, 54.5000 mm): PTH pad 2 [CAN_L] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.1458 mm, 71.0024 mm): Track [CAN_H] on In2.Cu, length 2.2045 mm
+    @(148.7100 mm, 55.7000 mm): Track [CAN_H] on In2.Cu, length 4.7627 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.5000 mm, 49.2000 mm): Track [VBAT_PROTECTED] on F.Cu, length 1.8000 mm
+    @(149.5634 mm, 63.0000 mm): Track [VBAT_PROTECTED] on F.Cu, length 1.0607 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
